@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "1048873665124",
+    "firebase_url": "https://iot2016-b5048.firebaseio.com",
+    "project_id": "iot2016-b5048",
+    "storage_bucket": "iot2016-b5048.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048873665124:android:ac49c29a9276f92f",
+        "android_client_info": {
+          "package_name": "jing.firebase_tes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048873665124-26pam6ocgf45akj3ctcs0hdtvfj7rjdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVQSUBiOAzDWZj88QzLWXqBtSMygP6hts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048873665124:android:e3d6e490ac6ae9df",
+        "android_client_info": {
+          "package_name": "xbee.udootest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048873665124-26pam6ocgf45akj3ctcs0hdtvfj7rjdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVQSUBiOAzDWZj88QzLWXqBtSMygP6hts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048873665124:android:1a4859c4ef0cc4fe",
+        "android_client_info": {
+          "package_name": "com.example.polarvenezia.smartinventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048873665124-26pam6ocgf45akj3ctcs0hdtvfj7rjdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVQSUBiOAzDWZj88QzLWXqBtSMygP6hts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.polarvenezia.smartinventory.BarcodeFragment"
+    android:background="@drawable/appbg">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_marginTop="150dp"
+            android:textSize="32sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:id="@+id/status_message"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:text="@string/ples"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:id="@+id/instruct"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(barcode result)"
+            android:id="@+id/barcode_value"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1.2"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:layout_weight="0.6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/scan_barcode"
+                android:text="@string/scannow"
+                android:layout_margin="14dp"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+     />
+
+            <Button
+                android:layout_weight="0.6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/input_manually"
+                android:text="@string/inputmanual"
+                android:layout_gravity="center"
+                android:layout_margin="14dp"
+                android:background="@android:color/transparent"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
